@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gtextutils
+Description: Gordon's text-utility classes
+Version: 0.7
+Libs: -L${libdir} -lgtextutils
+Cflags: -I${includedir}/gtextutils

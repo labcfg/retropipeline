@@ -1,0 +1,5 @@
+chomp.o: chomp.c /usr/include/stdc-predef.h chomp.h
+
+/usr/include/stdc-predef.h:
+
+chomp.h:
